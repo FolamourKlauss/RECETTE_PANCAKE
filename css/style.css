@@ -1,0 +1,79 @@
+body {
+    background-color: #fff3db;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+/* h1 { */
+/* on veut cibler le titre via son id
+=> #valeur-de-l-id */
+#title {
+    background-color: #f02425;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    color: #f02425;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* On ne cible plus une ou des balises
+mais plutôt un ou des éléments HTML ayant la classe "headings3"
+Ainsi, peu importe la balise choisie pour ces éléments */
+.headings3 {
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+}
+
+p {
+    color: #333; /* équivaut à #333333 */
+}
+
+strong {
+    font-weight: bold;
+    color: #f02425;
+}
+
+em {
+    font-style: normal;
+    color: #f02425;
+}
+
+/* tous les élements HTML ayant la classe "minutes"
+seront en italique */
+.minutes {
+    font-style: italic;
+}
+
+.cuisson {
+    background-color: white;
+}
+
+/* on centre l'image */
+.pancake-container {
+    text-align: center;
+}
+
+/* on met un beau bleu sur les liens, et du gras */
+.link {
+    color: #248dd9;
+    font-weight: bold;
+}
+
+/* on veut mettre la plus belle couleur du monde sur les liens lors du survol par la souris */
+/* :quelquechose => une pseudo classe (permet de styliser un "état" de l'élément HTML)
+ici, l'état, c'est "survol par la souris" */
+.link:hover {
+    color: #f0f;
+}
+
+/* le survol n'est pas réservé aux liens
+=> par exemple, sur la "zone" cuisson */
+.cuisson:hover {
+    background-color: #f0f;
+}
